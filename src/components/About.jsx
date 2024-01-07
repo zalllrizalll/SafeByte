@@ -23,7 +23,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="md:w-1/2">
                         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/4">Helping a local <br/><span className="text-brandPrimary">business reinvent itself</span></h2>
-                        <p>We reached here with our hard work and dedication</p>
+                        <p className="text-neutralGrey">We reached here with our hard work and dedication</p>
                     </div>
 
                     {/* stats */}
@@ -33,14 +33,14 @@ const About = () => {
                                 <img src="/src/assets/icons/member.png" alt="" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
-                                    <p>Members</p>
+                                    <p className="text-neutralGrey">Members</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <img src="/src/assets/icons/event.png" alt="" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">828,867</h4>
-                                    <p>Event Bookings</p>
+                                    <p className="text-neutralGrey">Event Bookings</p>
                                 </div>
                             </div>
                         </div>
@@ -49,14 +49,14 @@ const About = () => {
                                 <img src="/src/assets/icons/club.png" alt="" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">46,328</h4>
-                                    <p>Clubs</p>
+                                    <p className="text-neutralGrey">Clubs</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <img src="/src/assets/icons/payment.png" alt="" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">1,926,436</h4>
-                                    <p>Payments</p>
+                                    <p className="text-neutralGrey">Payments</p>
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ const MyFooter = () => {
             <div className="w-full">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                 <div className="space-y-4 mb-8">
-                    <a href="" className="text-2xl font-semibold flex items-center space-x-3"><img src={logo} alt="" className="w-10 inline-block items-center" /><span className="text-[#263238]">Safe<span className="text-brandPrimary">Byte.</span></span></a>
+                    <a href="" className="text-2xl font-semibold flex items-center space-x-3"><span className="text-[#263238]">Safe<span className="text-brandPrimary">Byte.</span></span></a>
                     <div>
                         <p className="mb-2 text-neutralGrey">Copyright © 2024 Universitas Dian Nuswantoro.</p>
                         <p className="text-neutralGrey">All rights reserved</p>
@@ -41,7 +41,7 @@ const MyFooter = () => {
                 </div>
                 <Footer.Divider />
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
-                <Footer.Copyright href="#" by="Universitas Dian Nuswantoro™" year={2024} />
+                <Footer.Copyright href="#" by="Universitas Dian Nuswantoro™" year={2024} className="hoverable-icon"/>
                 <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
                     <Footer.Icon href="#" icon={BsFacebook} className="hoverable-icon"/>
                     <Footer.Icon href="#" icon={BsInstagram} className="hoverable-icon"/>
